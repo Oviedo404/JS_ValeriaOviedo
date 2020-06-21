@@ -1,0 +1,45 @@
+.celda{
+  background-color:chartreuse;
+  height: 50px;
+  width: 50px;
+}
+.controles{
+  background-color:aquamarine;
+  height: 80px;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 80px;
+}
+.controles:active{
+  background-color: blue;
+}
+.controles:hover{
+  background-color: rgb(44, 50, 213);
+}
+.control{
+  display: flex;
+  height: 100px;
+  width:500px;
+}
+.fruta{
+  background-color:red;
+  height: 50px;
+  width: 50px;
+}
+.serpiente{
+  background-color:blueviolet;
+  height: 50px;
+  width: 50px;
+}
+.tablero{
+  background-color:rgb(116, 202, 31);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+}
+.uno{
+  align-self: flex-start;
+}

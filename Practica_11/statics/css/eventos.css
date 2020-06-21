@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(176, 246, 162);
+}
+h1{
+  text-align: center;
+  color: rgb(54, 36, 113);
+}
+h3{
+  color: rgb(102, 21, 115);
+}
+.blurEv::after{
+  background-color: plum;
+  content: "Hola, ¿por qué te saliste? :)";
+  height:40px;
+  text-align:justify;
+  width:300px;
+}
+.chan{
+  background-color: rgb(179, 194, 243);
+  height:70px;
+  text-align:justify;
+  width:300px;
+}
+.copia{
+  background-color: rgb(108, 243, 142);
+  height:70px;
+  text-align:justify;
+  width:300px;
+}
+.focusEv::after{
+  background-color: rgb(169, 126, 248);
+  content: "Hola Hola!!!";
+  height:40px;
+  text-align:justify;
+  width:300px;
+}
+.mouseUp::after{
+  background-color: rgb(169, 126, 248);
+  content: " Soltaste el botón ;(";
+  width:80px;
+}
+#div1{
+  background-color: cyan;
+  height: 70px;
+  width: 90px;
+}
+#div2{
+  background-color: rgba(85, 190, 150, 0.801);
+  height: 100px;
+  width: 100px;
+}
+#mouse{
+  background-color: tomato;
+  height: 200px;
+  width: 200px;
+  height: 200px;
+}

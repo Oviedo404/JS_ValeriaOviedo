@@ -1,0 +1,19 @@
+div{
+  background-color: rgb(206, 218, 199);
+  border: 0.5em dashed black;
+  width:100%;
+  height:250px;
+}
+.uno{
+  color: rgb(25, 14, 235);
+  font-size: 30px;
+  text-decoration: underline;
+}
+.dos{
+  color: rgb(25, 14, 235);
+  font-style: italic;
+  text-decoration: underline;
+}
+.tres{
+  color:rgb(247, 12, 12);
+}

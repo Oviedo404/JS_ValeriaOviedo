@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="../statics/css/eventos.css">
+  </head>
+  <body>
+    <h1>Eventos y más eventos</h1>
+    <h3>
+      Onmouseover, click, ondblclick,
+      onmouseleave y contextmenu
+    </h3>
+    <p>Si ingresas en el div se activará el evento onmouseover, si sales se activará el onmouseleave. Si cliqueas se activa el evento click. Un doble cliqueo activará un evento ondblclick y un click derecho activa el ebento oncontextmenu. Pruebalo cliqueando en el siguiente cuadro
+    </p>
+    <div id="mouse"></div>
+    <div class="contenedorO">
+
+    </div>
+    <br>
+    <hr>
+    <h3>onsubmit</h3>
+    <p>Este evento es parte de un formulario y cuando envias el formulario te va a parecer un mensaje</p>
+    <form id="formy" action="index.html">
+      Parte de un formulario: <input type="text" name="hola" >
+      <input type="submit" value="Presioname">
+    </form>
+    <br>
+    <hr>
+    <h3>onmouseenter</h3>
+    <p>En este evento solo cuando el mouse pase por encima de la parte seleccionada va a contar</p>
+    <div>
+      <p id="div1">¿cuantas veces haz estado aqui encima?</p>
+      <br>
+    </div>
+    <hr>
+    <h3>onmousemove,onmouseout</h3>
+    <p>Si te mueves el puntero en el cuadro va a aparecer algo ;)(con onmousemove)<br> pero si permaneces fuera del elemento va a cambiar ya que no estas dentro de este(con onmouseout)</p>
+    <div id="div2">
+    </div>
+    <hr>
+    <h3>KeyPressed, Onkeyup y Onkeydown</h3>
+    <p>Los eventos onkeyup y onkeydown se activan cuando se suelta una tecla y cuando se presiona, respectivamente. Pruébalo aquí abajo ;)</p>
+    <div id="pressedUno"></div>
+    <br>
+    <div id="pressed"></div>
+    <hr>
+    <h3>Onblur y Onfocus</h3>
+    <p>Onblur es un evento que te dirá si algún elementos ha perdido el foco, Onfocus por otro lado, te dirá si tu elemento tiene el foco. Pruébalo aquí abajo :).</p>
+    <form id="inBlur">
+     <input type="text"  placeholder="Ingresa tu nombre, guapo B)">
+    </form>
+    <br>
+    <div id="blur"></div>
+    <hr>
+    <h3>Onchange</h3>
+    <h4>Selecciona tu animal favorito:</h4>
+    <select id="change">
+      <option value="gato">Gato</option>
+      <option value="perro">Perro</option>
+      <option value="tortuga">Tortuga</option>
+      <option value="pez">Pez</option>
+    </select>
+    <br><br>
+    <div id="chanDiv"></div>
+    <br>
+    <hr>
+    <h3>Oncopy</h3>
+    <input type="text" id="copy" value="Texto poderoso, no copiar!!">
+    <br><br>
+    <div id="copyDiv"></div>
+    <hr>
+    <h3>Onmouseup</h3>
+    <p>Este evento se activa si dejas de presionar una tecla del ratón sobre un elemento, inténtalo dando clic al texto de aquí abajo.</p>
+    <p id="mouseup">¡Hola!, dame clic ;) y no sueltes el botón.</p>
+    <script src="../dynamics/js/eventos.js"></script>
+  </body>
+</html>
