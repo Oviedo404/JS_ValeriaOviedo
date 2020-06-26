@@ -20,3 +20,7 @@ Hay presencia de confusión con respecto a lo que regresa cada función.
 - Práctica 11
 9.6
 Muy bien la práctica, pero solo faltó comentar el código.
+
+- Prática 12
+9.3
+Muy buen trabajo, solo faltó algunas cosas como guardar el estado del juego en cookies y lo del tiempo.
